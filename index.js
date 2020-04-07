@@ -23,6 +23,7 @@ const angle2 = 1 / 2 * Math.PI
 module.exports = element => {
   const {width} = element.getBoundingClientRect()
   const canvas = document.createElement('canvas')
+  canvas.setAttribute('style', 'position:relative;z-index: 99999;width:100%;')
   canvas.width = width
   const height = canvas.height = width / ratio
   const context = canvas.getContext('2d')
