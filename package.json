@@ -1,0 +1,25 @@
+{
+  "name": "golden-grid",
+  "version": "1.0.0",
+  "description": "Draw golden rectangles and circles on top of a layout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bredele/golden-grid.git"
+  },
+  "keywords": [
+    "golden",
+    "ratio",
+    "circle",
+    "rectangle"
+  ],
+  "author": "Olivier Wietrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/golden-grid/issues"
+  },
+  "homepage": "https://github.com/bredele/golden-grid#readme"
+}
