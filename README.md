@@ -14,6 +14,8 @@ import golden from 'golden-grid'
 golden(document.body)
 ```
 
+Parent element should not be positioned statically (except if document body).
+
 ## Installation
 
 ```shell
